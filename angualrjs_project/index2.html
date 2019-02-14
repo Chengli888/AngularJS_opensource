@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myapp">
+<head>
+    <meta charset="UTF-8">
+    <title>index page</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/index.css"/>
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="js/AngularJs.js"></script>
+    <script src="js/angular-route.js"></script>
+    <script src="js/app.js"></script>
+    <script src="page/logout/logoutController.js"></script>
+    <script src="page/message/messageController.js"></script>
+    <script src="page/detail/detailController.js"></script>
+</head>
+<body>
+<div class="container" ng-controller="my1Controller">
+    <nav-directive></nav-directive>
+    <div class="row">
+        <div class="col-12">
+            <div ng-view="">
+            </div>
+        </div>
+    </div>
+
+</div>
+<!--<div class="row">-->
+<!--<div class="col-12">-->
+    <!--<div ng-controller="Controller1">-->
+        <!--<button ng-click="broadcast()">Broadcast 1</button>-->
+        <!--<button ng-click="emit()">Emit 1</button>-->
+    <!--</div>-->
+
+    <!--<div ng-controller="Controller2">-->
+        <!--<button ng-click="broadcast()">Broadcast 2</button>-->
+        <!--<button ng-click="emit()">Emit 2</button>-->
+        <!--<div ng-controller="Controller3">-->
+            <!--<button ng-click="broadcast()">Broadcast 3</button>-->
+            <!--<button ng-click="emit()">Emit 3</button>-->
+            <!--<br>-->
+            <!--<button ng-click="broadcastRoot()">Broadcast Root</button>-->
+            <!--<button ng-click="emitRoot()">Emit Root</button>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
+<!--</div>-->
+
+</body>
+</html>

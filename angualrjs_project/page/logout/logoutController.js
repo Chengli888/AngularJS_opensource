@@ -1,0 +1,3 @@
+myapp.controller('logoutController',function () {
+    
+});
